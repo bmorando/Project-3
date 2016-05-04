@@ -8,6 +8,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express', user: req.user});
 });
 
+router.get('/players', function(req, res, next) {
+  res.render('players', { title: 'Express', user: req.user});
+});
+
 router.get('/auth/google', passport.authenticate(
   'google',
   { scope: ['profile', 'email'] }
