@@ -7,6 +7,13 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express', user: req.user });
 });
 
+router.get('/game_host', function(req, res, next) {
+  res.render('game_host', { title: 'Express', user: req.user });
+});
+// router.get('/', function(req, res, next) {
+//   res.render('game.player', { title: 'Express', user: req.user });
+// });
+
 router.get('/auth/google', passport.authenticate(
   'google',
   { scope: ['profile', 'email'] }

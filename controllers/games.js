@@ -74,7 +74,6 @@ function startGame (req, res, next) {
         res.json({msg: "startGame function worked", game: game})
       })
     }
-
   })
 }
 

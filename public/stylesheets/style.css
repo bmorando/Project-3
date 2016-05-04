@@ -1,8 +1,28 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+/*.waves-effect.game-btn {
+   text-decoration: none;
+    color: #fff;
+    width: 51%;
+    height: 255px;
+    font-size: 52px;
+    margin: 29px;
+    box-shadow: 15px 15px 30px grey;
+    border-radius: 6%;
+    padding-top: 15%;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+}
+*/
+.space{
+  padding: 7%;
 }
