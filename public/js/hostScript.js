@@ -10,7 +10,7 @@ var expTime
 // LODASH TEMPLATES
 //
 var _renderInstruction = _.template(`
-  <div class='col s12'>
+  <div class='col s12 m8 push-m2'>
     <div class='card'>
       <div class='card-content'>
         <span class='card-title'><%= instruction.task %></span>
