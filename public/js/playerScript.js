@@ -157,7 +157,6 @@ $(document).ready(function() {
         $(".incomplete-tasks").remove()
 
         var instructions = data.game.instructions
-        currentTask++
 
         instructions.forEach(function(task, index) {
           if(currentTask == index) {
